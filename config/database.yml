@@ -23,7 +23,7 @@ default: &default
 
 development:
   <<: *default
-  database: reto_grupo1_192_development
+  database: ddrfj2k6o516ta
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -57,7 +57,7 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: reto_grupo1_192_test
+  database: ddrfj2k6o516ta
 
 # As with config/secrets.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -80,6 +80,8 @@ test:
 #
 production:
   <<: *default
-  database: reto_grupo1_192_production
-  username: reto_grupo1_192
-  password: <%= ENV['RETO_GRUPO1_192_DATABASE_PASSWORD'] %>
+  host: ec2-54-243-54-6.compute-1.amazonaws.com
+  port: 5432
+  database: ddrfj2k6o516ta
+  username: aowqcdcmttapfg
+  password: 690e28003f1023aff906086132c81c0242cc8c221065a64f3f71507481a0495b
