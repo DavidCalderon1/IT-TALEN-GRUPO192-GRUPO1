@@ -6,3 +6,5 @@ Integrantes:
     David Leonardo Calderon
     
     Carlos Jonathan Rodíguez
+    
+    Samuel Casas Hernandez
